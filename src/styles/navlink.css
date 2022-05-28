@@ -7,19 +7,19 @@
 
 .navlink {
   &__white {
-    color: white;
+    color: var(--light-text);
   }
 
   &__white:hover {
-    color: #ac7ffb;
+    color: var(--purple-color-hover);
   }
 
   &__dark {
     padding: 16px;
-    color: #ba91ff;
+    color: var(--purple-color);
   }
 
   &__dark:hover {
-    color: #ac7ffb;
+    color: var(--purple-color-hover);
   }
 }

@@ -9,15 +9,15 @@
 .error-code {
   &__wrapper {
     width: max-content;
-    background: linear-gradient(to top left,#EEBEFF,#D0B4FF,#A4DEFF,#B6E5FF);
+    background: var(--gradient-color);
     border-radius: 120px;
   }
 
   &__text {
     padding: 60px 120px;
     margin: 0;
-    font-family: 'Shrikhand', cursive;
-    color: white;
+    font-family: var(--logo-font);
+    color: var(--light-text);
     font-size: 120px;
     line-height: 120px;
     text-align: center;
@@ -27,5 +27,5 @@
 .error-message {
   padding: 24px;
   margin: 0;
-  color: #6F6F6F;
+  color: var(--dark-grey-text);
 }

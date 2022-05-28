@@ -1,3 +1,17 @@
 body {
   font-family: 'Roboto', sans-serif;
+  --logo-font: 'Shrikhand', cursive;
+  --gradient-color: linear-gradient(to top left,#EEBEFF,#D0B4FF,#A4DEFF,#B6E5FF);
+  --border-color: #E5E5E5;
+  --grey-border: 1px solid #E5E5E5;
+  --chat-item-hover-color: #F7F2FF;
+  --light-grey-background-color: #DDDDDD;
+  --dark-transparent-background: rgb(0, 0, 0, 0.6);
+  --light-background: white;
+  --light-text: white;
+  --dark-grey-text: #6F6F6F;
+  --purple-color: #BA90FF;
+  --purple-color-hover: #AC7FFB;
+  --dark-grey-color: #999999;
+  --dark-grey-color-hover: #8A8A8A;
 }
