@@ -4,7 +4,7 @@
   "description": "chat for everyone",
   "scripts": {
     "build": "parcel build src/pages/index.hbs --no-cache --public-url ./",
-    "start": "parcel build src/pages/index.hbs --no-cache --public-url ./ && node server.js"
+    "start": "npm run build && node server.js"
   },
   "engines": {
     "node": ">= 12.22.6"
