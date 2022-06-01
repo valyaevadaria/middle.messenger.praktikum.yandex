@@ -1,0 +1,40 @@
+.button {
+  &__submit {
+    width: max-content;
+    padding: 10px 36px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--light-text);
+    background-color: var(--purple-color);
+    cursor: pointer;
+  }
+
+  &__submit:hover {
+    background-color: var(--purple-color-hover);
+  }
+}
+
+.icon-button {
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.icon-button {
+  &__settings {
+    width: 36px;
+  }
+
+  &__settings-icon {
+    font-size: 36px;
+    color: var(--dark-grey-color);
+  }
+
+  &__settings-icon:hover {
+    color: var(--dark-grey-color-hover);
+  }
+}

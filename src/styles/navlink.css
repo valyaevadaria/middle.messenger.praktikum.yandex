@@ -1,0 +1,25 @@
+.navlink {
+  width: max-content;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.navlink {
+  &__white {
+    color: var(--light-text);
+  }
+
+  &__white:hover {
+    color: var(--purple-color-hover);
+  }
+
+  &__dark {
+    padding: 16px;
+    color: var(--purple-color);
+  }
+
+  &__dark:hover {
+    color: var(--purple-color-hover);
+  }
+}

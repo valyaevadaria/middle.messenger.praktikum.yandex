@@ -1,0 +1,15 @@
+.dialog {
+  &__no-selected {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: var(--border-color);
+  }
+
+  &__no-selected-message {
+    width: 100%;
+    text-align: center;
+    color: var(--dark-grey-text);
+  }
+}
