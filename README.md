@@ -1,8 +1,15 @@
+
 # Чат Kareta
 
 Почему "Kareta"? Потому что "Телега"! :smile:
 
 Проект 1 Модуля курса "Мидл фронтенд-разработчик"
+
+### Pull request
+
+#### Sprint 1
+
+https://github.com/valyaevadaria/middle.messenger.praktikum.yandex/pull/1
 
 ## Figma
 
